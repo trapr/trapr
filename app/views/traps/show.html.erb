@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @trap.name %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @trap.lat %>
+</p>
+
+<p>
+  <strong>Long:</strong>
+  <%= @trap.long %>
+</p>
+
+<%= link_to 'Edit', edit_trap_path(@trap) %> |
+<%= link_to 'Back', traps_path %>
